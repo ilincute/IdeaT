@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tomato Soup</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/recipe-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Recipe",
+          "cookTime": "PT10M",
+          "cookingMethod": [
+          "Step 1: Firstly, wash the tomatoes and cut each one into quarters slicing off any hard cores.",
+          "Step 2: Peel the onion, garlic and carrot and chop them into small pieces. ",
+          "Step 3: Chop the celery into roughly the same size pieces.",  
+          "Step 4: Serve with a sprinkling of torn basil leaves."
+          ],
+          "image": "tomato.jpg",
+          "recipeIngredient": [
+            "1-1.25kg ripe tomatoes",
+            "1 medium onion",
+            "2 garlic cloves",
+            "1 large carrot",
+            "2 celery sticks",
+            "2 tbsp. olive oil",
+            "Fresh basil to garnish"
+          ],
+          "name": "Quinoa and Halloumi Salad",
+          "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "587.5 calories",
+            "fatContent": "47.2 grams fat",
+            "saturatedFatContent": "20.9 grams saturated fat",
+            "carbohydrateContent": "20.3 grams",
+            "fiberContent": "2.7 grams",
+            "proteinContent": "24.2 grams"
+            
+          },
+          "prepTime": "PT20M",
+          "recipeYield": "2 serves"
+        }
+    </script>
+  </head>
+
+  <body onload="setActivePage('recipes');setHeader();">
+    <div id="header"></div>
+    <div class="content">
+        <div class="left-container">
+            <p class="recipe-name">Tomato Soup</p>
+            <img class="recipe-image" src="../images/tomato.jpg">
+            <p class="nutritional-facts">Nutritional Facts (per serving)</p>
+            <div class="facts-container">
+                <p class="top">Calories</p>
+                <p class="value">312.5</p>
+                <p>Calories 312.5 | Total Fat 17.1g | Saturated Fat 3.4g | Carbohydrates 35g | Fibre 9.1g | Protein 6.2g </p>
+            <p class="serves">Serves: 2</p>
+            </div>
+        </div>
+        <div class="middle-container">
+                <div class="ingredients-container">
+                 <p class="ingredients">Ingredients</p>
+                 <ul>
+                     <li>1-1.25kg ripe tomatoes</li> 
+                     <li>1 medium onion</li> 
+                     <li>2 garlic cloves</li> 
+                     <li>1 large carrot</li> 
+                     <li>2 celery sticks</li> 
+                     <li>2 tbsp. olive oil</li> 
+                     <li>Fresh basil to garnish</li> 
+                 </ul>
+                 </div>
+             </div>
+             <div class="right-container">
+                 <p class="method-container">Method</p>
+                 <p class="steps">Step 1: Firstly, wash the tomatoes and cut each one into quarters slicing off any hard cores.</p>
+                 <p class="steps">Step 2: Peel the onion, garlic and carrot and chop them into small pieces.</p>
+                 <p class="steps">Step 3: Chop the celery into roughly the same size pieces.</p>
+                 <p class="steps">Step 4: Serve with a sprinkling of torn basil leaves.</p>
+             </div>
+       
+    </div>
+    </div>
+        
+
+    <script type="text/javascript" src="../javascript/header.js"></script>
+  </body>
+</html>

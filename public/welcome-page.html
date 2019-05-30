@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nutrics App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/welcome-page.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="left-container">
+                <div class="logo-container">
+                    <img class="logo" src="../images/logo.png">
+                </div>
+                <div class="app-description">
+                    <div class="description-item">
+                        <i class="material-icons circle">check_circle</i>
+                        <p class="description">Keep an eye on your blood sugar</p>
+                    </div>
+                    <div class="description-item">
+                        <i class="material-icons circle">check_circle</i>
+                        <p class="description">Enjoy our healthy and personalized meals</p>
+                    </div>
+                    <div class="description-item">
+                        <i class="material-icons circle">check_circle</i>
+                        <p class="description">Never miss an appointment</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right-container">
+                <p class="connection">Connect with your social network:</p>
+                <div class="social-media-container">
+                    <a href="home.html"> <img class="social-media-icon" src="../images/google.png"></a>
+                    <a href="home.html"> <img class="social-media-icon" src="../images/facebook.png"></a>
+                    <a href="home.html">  <img class="social-media-icon" src="../images/instagram.png"></a>
+                    <a href="home.html">  <img class="social-media-icon" src="../images/linkedin.png"></a>
+                  
+                </div>
+
+            </div>
+        </div>
+        <script>
+            // Check that service workers are registered
+            if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+    </body>

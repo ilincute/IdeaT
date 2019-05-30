@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container {
+    width: 50vw;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    height: 30%;
+    padding-top: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.app-description {
+    width: 30vw;
+    height: 35vh;
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 19%;
+}
+
+.description-item {
+    display: flex;
+    justify-content: left;
+}
+
+.circle {
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    padding: 15px;
+}
+
+.description {
+    display: flex;
+    margin: auto;
+    font-size: 19px;
+}
+
+.right-container {
+    height: 100vh;
+    width: 50vw;
+    background-color: #EDEFEE;
+}
+
+.connection {
+    width: 37%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 245px;
+    font-size: 30px;
+}
+
+.social-media-container {
+    width: 22vw;
+    display: flex;
+    margin: auto;
+}
+
+.social-media-icon {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+

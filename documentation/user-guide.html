@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Nutrics User Guide</title>
+    <link rel="stylesheet" href="../styles/user.guide.css">
+    <link rel="stylesheet" href="node_modules/prismjs/themes/prism-coy.css">
+    <script src="node_modules/prismjs/prism.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <p class="title">Nutrics User Guide</p>
+      <p class="subtitle">Web Browser History Visualizer</p>
+    </header>
+    <article id="echipa" typeof="schema:ScholarlyArticle" resource="#">
+      <h1>Authors</h1>
+      <section>
+        <ol>
+          <li property="schema:author" typeof="sa:ContributorRole">
+            <a property="schema:author" href="https://github.com/hiezust" typeof="schema:Person">
+              <span property="schema:familyName">TOADER</span>
+              <span property="schema:givenName">ŞTEFANA TEODORA</span>
+            </a>
+          </li>
+          <li property="schema:author" typeof="sa:ContributorRole">
+            <a property="schema:author" href="https://github.com/ralucastefana" typeof="schema:Person">
+              <span property="schema:familyName">STUMBEA</span>
+              <span property="schema:givenName">ILINCA-MAGDALENA</span>
+            </a>
+          </li>
+        </ol>
+        <ol>
+          <li id="fii">
+            <a href="https://www.info.uaic.ro/bin/Main/" typeof="schema:Corporation">
+              <span property="schema:name">Facultatea de Informatică Iaşi</span>
+            </a>
+          </li>
+        </ol>
+      </section>
+
+      <section id="intro">
+        <h1>Introduction</h1>
+        <p>
+            Nutrics is a multi-device adaptive and customizable tool – i.e. a (mobile) Web browser extension – able to determine (e.g. learn)
+            and recommend the ideal weekday and time for performing a set of desired actions in a specific context. The main group of
+            targeted audience for this application would be people with diabetes. This extension will allow the user to insert a daily 
+            glycemic index (GI) which will determine if the blood sugar is either high or low. The GI will be the key factor based on which 
+            the user will receive receipe recommendations. Also, the user can consult the available calendar from the application,
+            so that he can schedule his doctor appointments or other type of activities.  
+        </p>
+      </section>
+      <section id="scop">
+        <h1>Purpose</h1>
+        <p>
+          <strong>The purpose </strong >of this application is to meet the needs of people who want to manage their eating timetable and also 
+          improve their eating habit. It helps them keeping track of their glycemic index and keeping it under control with the help of the 
+          application's suggestions of dishes.
+      </section>
+      <section typeof="sa:Abstract" id="scop">
+        <h1>Use Case 1</h1>
+              <p>If the user wants to eat breakfast and he would like to use our application in order to get a sugeestion of anappropriate 
+                  dish, he will need to follow the next steps:
+              </p>
+              <ul>
+                    <figure typeof="sa:Image">
+                            <img src="../images/login-logo.png" width="880" height="655">
+                            <p>1. Log in in our application, using one of the four social media icons.</p>
+                        </figure>
+                    <figure typeof="sa:Image">
+                        <img src="../images/introduce-glycemic.png" width="880" height="655">
+                        <p>2. Click on the Metrics item from the header and introduce his glycemic index in the field where it is stated so.</p>
+                    </figure>
+                    <figure typeof="sa:Image">
+                            <img src="../images/breakfast-photo.png" width="880" height="655">
+                            <p>3. Then, he has to click on the Recipes item from the header and choose the preferered meal. In this case, it will be breakfast.</p>
+                    <figure typeof="sa:Image">
+                             <img src="../images/breakfast-photo.png" width="880" height="655">
+                             <p>
+                                    <p>4. Once the Breakfast button was clicked, on the right side the user will be able to see the suggested meals that were generated
+                                        based on the glycemic index introduced by him. It will be shown with the help of the word "high" or "low" which stands 
+                                      for high protein, respectively low protein. This way, the user will know if the introduced glycemic index was either high,
+                                  or low.</p></p>
+                        </figure>
+
+                    <figure typeof="sa:Image">
+                                <img src="../images/recipe-item-breakfast-low.png" width="880" height="655">
+                                <p>5. After that, the user can choose one of the three suggestions, after which the page with the recipe will pop up on the screen.</p>
+                            </figure>
+              	
+              </ul>
+            </figcaption>
+            <h2><small>Use Case 2</small></h2>
+                <p>If the user wants to introduce an event in his calendar (for instance, a doctor appointment), he will follow the next steps:</p>
+          </figure>
+          <ul>
+                <figure typeof="sa:Image">
+                        <img src="../images/login-logo.png" width="880" height="655">
+                        <p>1. Log in in our application, using one of the four social media icons.</p>
+                    </figure>
+                <figure typeof="sa:Image">
+                    <img src="../images/edit-calendar.png" width="880" height="655">
+                    <p>2. Click on the Calendar item from the header and select Add/Edit button from the bottom of the calendar.</p>
+                </figure>
+                <figure typeof="sa:Image">
+                        <p>3. Then, he will set all the details for that event, as suggested in the previous photo.</p>
+                <figure typeof="sa:Image">
+                         <img src="../images/event-added.png" width="880" height="655">
+                         <p>
+                                <p>4. Once the user has set all the details (such as name, location etc.), he can click on the create button
+                                    and then the event will be added to it, as shown in the image below.
+                                </p></p>
+                    </figure>
+          </ul>
+
+      <!-- <section id="arhi">
+        <h1>Architecture </h1>
+        <p>
+         The application is written in JavaScript. Also, we used chart.js library for generating the charts that indicate the flow of the glycemix index
+         of the user, as well as his mood. </p>
+         <h1>Development stage </h1>    
+        <p>
+          The main development stages are the following:
+          <ul>
+          	<li>Building the metrics logic, with the help of JavaScript (the input is kept in the localStorage)
+            </li>
+            <li>As for the front-end, we used HTML and CSS, as well as Bootstrap framework. For the header, we used JavaScript, so it can be 
+                easier to manipulate the responsiveness of the pages. We also used unDraw for the illustration on the home page.
+            </li>
+          </ul>
+        </p>   
+      </section>  -->
+      <section id=final>
+      	<h1>Overview of the application</h1>
+      	<p>The application has 6 sections in total: Welcome Page, Home, Metrics, Calendar, Recipes and Settings.</p>
+      	<figure typeof="sa:Image">
+            <img src="../images/sections.png" width="880" height="655">
+        </figure>
+        <p>
+        	We will explain each section in detail.
+        </p>
+        <h2>Welcome Page</h2>
+        <figure typeof="sa:Image">
+        	<img src="../images/welcome.png" width="880" height="655">
+        </figure>
+        <p>
+            This is the first contact of the user with the Nutrics application. On the left side, there are a few phrases that describe what is
+            the purpose of the application, while on the right side the user can choose one of the four ways to connect to our application: Google,
+            Facebook, Instagram or LinkedIn.
+        </p>
+        <h2>Home</h2>
+        <figure typeof="sa:Image">
+                <img src="../images/home.png" width="880" height="655">
+            </figure>
+        <p>
+            This is the home page, the first page the user will see after having managed to log in with one of the four social media accounts 
+            he/she has. On the right side, there is a question the user can answer (it is entirely up to him), in order to keep track of his 
+            mood. He can check out the state of his mood for the last couple of days from the chart available at the Metrics page. He can choose
+            from: 
+        	<ul>
+        		<li><strong>first icon</strong>, which means very satisfied</li>
+        		<li><strong>second icon</strong>, which means satisfied</li>
+        		<li><strong>third icon</strong>, which means dissatisfied</li>
+        	</ul>
+        </p>  
+
+        <h2>Metrics</h2>
+        <figure typeof="sa:Image">
+                <img src="../images/metrics.png" width="880" height="655">
+            </figure>
+        <p>
+            Once he has clicked on one of the three icons available on the previous page, the user can click on the Metrics page, in order to
+            introduce his glycemic index and verify the flow of his GI from the last couple of days. 
+      	
+      </section>
+
+      <h2>Calendar</h2>
+        <figure typeof="sa:Image">
+                <img src="../images/calendar.png" width="880" height="655">
+            </figure>
+        <p>
+            This is the calendar page, where the user can pin his upcoming events (e.g. doctor appointment). 
+      </section>
+
+      <h2>Recipes</h2>
+        <figure typeof="sa:Image">
+                <img src="../images/recipes-overview.png" width="880" height="655">
+            </figure>
+        <p>
+            This is the section where the user can ask the application to suggest him appropriate recipes for him, based on the glycemic index
+            he has introduced in the Metrics page and the meal of the day he chooses. There are four different types of meals:
+        	<ul>
+        		<li>Breakfast</li>
+        		<li>Lunch</li>
+                <li>Dinner</li>
+                <li>Snacks</li>
+        	</ul>
+      </section>
+
+      <h2>Settings</h2>
+        <figure typeof="sa:Image">
+                <img src="../images/settings.png" width="880" height="655">
+            </figure>
+        <p>
+            In case the user would like to change the settings of his profile or the settings of the application, he can click on the user icon, 
+            from the top right corner, which will lead him to the Settings page. He can upload a different profile picture if he wants, change his 
+            first or last name, his age or he can choose from one of the application settings, such as: having the app send him a notification
+            in case of on an upcoming event.
+      </section>
+
+      <section id="concluzie">
+        <h2>Conclusion</h2>
+        <p>
+            In a time when apps have taken over the kitchen, it is no wonder why people spend more time on their devices, rather then searching 
+            for a recipe in an actual cookbook. Nutrics is an application easy to use, which gives users suggestions of the ideal meal they
+        should eat, based on their glycemix index and according to the preferred meal of the day. It is also a great organiser for the upcoming
+        events the user has planned in their schedule</p>
+      </section>       
+    </article>
+    <footer>
+      <!-- <p>
+        The final project can be found at:
+        <a href="https://github.com/ilincute/IdeaT">GitHub Nutrics source</a>
+      </p> -->
+    </footer>
+  </body>
+</html>

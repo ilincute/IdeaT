@@ -1,0 +1,50 @@
+.header {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-items: flex-end;
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 100;
+}
+
+.ul-header {
+  margin: 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.link {
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+  list-style-type: none;
+  color: #323031;
+  cursor: pointer;
+}
+
+.link.active {
+  border-bottom: 2px solid #ff2f00;
+}
+
+a {
+  color: #323031 !important; /* blue colors for links too */
+  text-decoration: none !important; /* no underline */
+}
+
+a:hover {
+  color: #323031 !important;
+  text-decoration: none !important;
+}
+
+.user-icon {
+  font-size: 30px !important;
+  color: #323031;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}

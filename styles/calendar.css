@@ -1,0 +1,12 @@
+.content {
+    padding-top: 100px;
+    width: 100%;
+    height: 99vh;
+    background-color: #edefee;
+    display: flex;
+}
+
+.calendar {
+  margin: auto;
+  justify-content: center;
+}

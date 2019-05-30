@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/calendar.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body onload="setActivePage('calendar');setHeader();">
+    <div id="header"></div>
+    <div class="content">
+        <!-- <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FBucharest&amp;src=amFuZWRvZWhjaUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=cm8ucm9tYW5pYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;showTitle=1"
+        style="border-width:0" width="800" height="500" frameborder="0" scrolling="no"></iframe> -->
+        <iframe class="calendar" src="https://www.brownbearsw.com/cal/JaneDoeHCI?fbclid=IwAR0wRfhzyWXC0GHluXuke4eKn882RNXz6gYF-ucxrFJ0UFwAzfKsuHGeb0k"
+        style="border-width:0" width="70%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <script type="text/javascript" src="../javascript/header.js"></script>
+  </body>
+</html>

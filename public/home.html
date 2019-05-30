@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body onload="setActivePage('home');setHeader();">
+    <div id="header"></div>
+    <div class="content d-flex">
+      <div
+        class="joke-section d-flex flex-column justify-content-center align-items-center"
+      >
+        <h5 class="mb-3">I’m not ill, my pancreas is just lazy.</h5>
+        <img class="image" src="../images/svg-happy.svg" />
+      </div>
+      <div
+        class="form-section d-flex flex-column justify-content-center align-items-center"
+      >
+        <h5>How are you feeling today?</h5>
+        <div class="d-flex">
+          <i class="material-icons feeling-icon m-2">
+            sentiment_very_satisfied
+          </i>
+          <i class="material-icons feeling-icon m-2">
+            sentiment_satisfied
+          </i>
+          <i class="material-icons feeling-icon m-2">
+            sentiment_dissatisfied
+          </i>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../javascript/header.js"></script>
+  </body>
+</html>

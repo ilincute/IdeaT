@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Recipes</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/recipes.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="setActivePage('recipes');setHeader();">
+    <div id="header"></div>
+    <div class="container-page">
+      <div class="left-container">
+        <p class="description-left-container ml-5 mt-2">
+          Our recommendations based on your glycemix index:
+        </p>
+        <div class="recipes-container">
+          <div>
+            <div id="breakfast" onclick="onSelectItem('breakfast')" class="recipe-item-container" class="breakfast-container">
+              <img
+                class="recipes-image"
+                class="breakfast-recipes"
+                src="../images/breakfast.png"
+              />
+              <p class="breakfast">Breakfast</p>
+            </div>
+            <div id="lunch" onclick="onSelectItem('lunch')" class="recipe-item-container" class="lunch-container">
+              <img
+                class="recipes-image"
+                class="lunch-recipes"
+                src="../images/lunch.png"
+              />
+              <p class="lunch">Lunch</p>
+            </div>
+          </div>
+
+          <div>
+            <div id="dinner" onclick="onSelectItem('dinner')" class="recipe-item-container" class="dinner-container">
+              <img
+                class="recipes-image"
+                class="dinner-recipes"
+                src="../images/dinner.png"
+              />
+              <p class="dinner">Dinner</p>
+            </div>
+            <div id="snacks" onclick="onSelectItem('snacks')" class="recipe-item-container" class="snacks-container">
+              <img
+                class="recipes-image"
+                class="snacks-recipes"
+                src="../images/snacks.png"
+              />
+              <p class="snacks">Snacks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="right-container" class="right-container">
+        <p class="description-right-container">
+          Our recommendations for selected meal:
+        </p>
+        <div id="dishes" class="dish-container">
+          <p class="dish-item">Name of the dish</p>
+          <p class="dish-item">Name of the dish</p>
+          <p class="dish-item">Name of the dish</p>
+          <p class="dish-item">Name of the dish</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../javascript/header.js"></script>
+    <script type="text/javascript" src="../javascript/recipes.js"></script>
+  </body>
+</html>

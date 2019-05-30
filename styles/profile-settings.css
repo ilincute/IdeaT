@@ -1,0 +1,106 @@
+.content {
+  padding-top: 100px;
+  width: 100%;
+  height: 99vh;
+  background-color: #edefee;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.left-container {
+  width: 60vw;
+  height: 84vh;
+}
+
+.photo-container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 91px;
+  margin: auto;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 27px;
+}
+
+.settings-container {
+  margin-top: 16px;
+}
+
+.input {
+  border-radius: 10px 10px 10px 10px;
+  border: 0.09em solid #212529;
+  cursor: pointer;
+  width: 115px;
+  background-color: white;
+}
+
+.middle-container {
+  width: 20vw;
+  height: 40vh;
+}
+
+.right-container {
+  width: 67vw;
+  height: 84vh;
+  padding-top: 86px;
+}
+
+.app-settings {
+  width: 30vw;
+  height: 35vh;
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: -3%;
+}
+
+.notification-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.square {
+  display: flex;
+  margin: auto;
+  justify-content: left;
+  padding: 15px;
+}
+
+.description {
+  margin-bottom: 0px;
+}
+
+.buttons {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 156px;
+}
+
+.submit-button {
+  width: 112px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #4aaf39;
+}
+
+.cancel-button {
+  width: 112px;
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #ab2121;
+}

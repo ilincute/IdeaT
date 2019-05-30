@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blueberry Breakfast</title>
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/recipe-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Recipe",
+            "cookTime": "PT15M",
+            "cookingMethod": [
+            "Step 1: Put the water and milk in a saucepan and bring to the boil.",
+            "Step 2: Add the quinoa and simmer over a medium heat for 15 minutes.",
+            "Step 3: Strain the quinoa to remove any excess milk and water.",
+            "Step 4: Combine the cooked quinoa, vanilla essence, and cinnamon.",
+            "Step 5: Divide this mixture into four breakfast bowls.",
+            "Step 6: Top with blueberries and walnuts, then enjoy!",
+            ],
+            "image": "blueberry.jpg",
+            "recipeIngredient": [
+              "150g quinoa",
+              "400ml semi-skimmed milk",
+              "100ml water",
+              "1 tsp. pure vanilla essence",
+              "½ tsp. ground cinnamon",
+              "200g cup blueberries",
+              "30g walnuts, chopped (optional)"
+            ],
+            "name": "Blueberry Breakfast",
+            "nutrition": {
+              "@type": "NutritionInformation",
+              "calories": "268 calories",
+              "fatContent": "9.1 grams fat",
+              "saturatedFatContent": "2.2 grams saturated fat",
+              "carbohydrateContent": "37 grams",
+              "fiberContent": "4.6 grams",
+              "proteinContent": "10.3 grams"
+              
+            },
+            "prepTime": "PT10M",
+            "recipeYield": "4 serves"          
+        }
+    </script>
+  </head>
+
+  <body onload="setActivePage('recipes');setHeader();">
+    <div id="header"></div>
+    <div class="content">
+        <div class="left-container">
+            <p class="recipe-name">Blueberry Breakfast</p>
+            <img class="recipe-image" src="../images/blueberry.jpg" alt="Responsive image" alt="This is an image of a blueberry breakfast.">
+            <p class="nutritional-facts">Nutritional Facts (per serving)</p>
+            <div class="facts-container">
+                <p>Calories 268 | Total Fat 9.1g | Saturated Fat 2.2g | Carbohydrates 37g | Fibre 4.6g | Protein 10.3g </p>
+            <p class="serves">Serves: 4</p>
+            </div>
+        </div>
+        <div class="middle-container">
+                <div class="ingredients-container">
+                 <p class="ingredients">Ingredients</p>
+                 <ul>
+                    <li>150g quinoa</li>
+                    <li>400ml semi-skimmed milk </li>
+                    <li>100ml water</li>
+                    <li>1 tsp. pure vanilla essence</li>
+                    <li>½ tsp. ground cinnamon</li>
+                    <li>200g cup blueberries </li>
+                    <li>30g walnuts, chopped (optional)</li>
+                 </ul>
+                 </div>
+             </div>
+             <div class="right-container">
+                 <p class="method-container">Method</p>
+                 <p class="steps">Step 1: Put the water and milk in a saucepan and bring to the boil.</p>
+                 <p class="steps">Step 2: Add the quinoa and simmer over a medium heat for 15 minutes.</p>
+                 <p class="steps">Step 3: Strain the quinoa to remove any excess milk and water.</p>
+                 <p class="steps">Step 4: Combine the cooked quinoa, vanilla essence, and cinnamon.</p>
+                 <p class="steps">Step 5: Divide this mixture into four breakfast bowls.</p>
+                 <p class="steps">Step 6: Top with blueberries and walnuts, then enjoy!</p>
+             </div>
+    </div>
+    </div>
+    
+    <script type="text/javascript" src="../javascript/header.js"></script>
+  </body>
+</html>
